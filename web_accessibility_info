@@ -1,0 +1,44 @@
+Automate web accessibility testing
+Mentor: Matt Brandt
+IRC: mbrandt
+
+Project Description: researching how to test for web accessibility standards and then the application of that knowledge by reviewing several open source automated testing frameworks. Once we have chosen the framework that best suits our needs, that minimizes false positives, codify a suite of tests that are able to run within Jenkins CI.
+The project requires a short amount of time reading about web accessibility testing to help gain domain knowledge. As we piece together a solution and implement the tests, then we'll help cleanup and update documentation. A willingness to reach out to members of the Firefox Test Engineering team as well as the Accessibility team for clarification will help round out the experience.
+
+OUTLINE FOR THE PROJECT: AUTOMATE WEB ACCESSIBILITY TESTING
+
+1. we will explore the requirements for the final solution.
+2. we will code the solution and deploy the solution that we architect.
+
+First steps:
+Research what web accessibility testing is and how it is done.
+Research current standards (WCAG 1.0 and WCAG 2.0)
+Research current open source tools/APIs available (interested in in Pa11y and AATT) that allow for automated accessibility testing.
+
+
+Source: https://en.wikipedia.org/wiki/Web_accessibility
+Essential components of web accessibility
+The accessibility of websites relies on the cooperation of eight components:[20]
+
+1. the website itself - natural information (text, images and sound) and the markup code that defines its structure and presentation
+2. user agents, such as web browsers and media players
+3. assistive technologies, such as screen readers and input devices used in place of the conventional keyboard and mouse
+4. users' knowledge and experience using the web
+5. developers
+6. authoring tools
+7. evaluation tools
+8. a defined web accessibility standard, or a policy for your organization (against which to evaluate the accessibility)
+These components interact with each other to create an environment that is accessible to people with disabilities.
+
+Web developers usually use authoring tools and evaluation tools to create Web content.
+People ("users") use Web browsers, media players, assistive technologies or other "user agents" to get and interact with the content."
+
+
+Source: https://en.wikipedia.org/wiki/Section_508_Amendment_to_the_Rehabilitation_Act_of_1973
+Summary of Section 508 technical standards
+Software Applications and Operating Systems: includes accessibility to software, e.g. keyboard navigation & focus is supplied by a web browser.
+Web-based Intranet and Internet Information and Applications: assures accessibility to web content, e.g., text description for any visuals such that users of with a disability or users that need assistive technology such as screen readers and refreshable Braille displays, can access the content.
+Telecommunications Products: addresses accessibility for telecommunications products such as cell phones or voice mail systems. It includes addressing technology compatibility with hearing aids, assistive listening devices, and telecommunications devices for the deaf (TTYs).
+Videos or Multimedia Products: includes requirements for captioning and audio description of multimedia products such as training or informational multimedia productions.
+Self Contained, Closed Products: products where end users cannot typically add or connect their own assistive technologies, such as information kiosks, copiers, and fax machines. This standard links to the other standards and generally requires that access features be built into these systems.
+Desktop and Portable Computers: discusses accessibility related to standardized ports, and mechanically operated controls such as keyboards and touch screens.
